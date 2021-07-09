@@ -60,6 +60,7 @@ h1 {
   overflow: hidden;
   padding: 10px;
   text-align: center;
+  border-radius: 7px;
 }
 
 .open {

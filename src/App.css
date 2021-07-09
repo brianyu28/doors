@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -25,8 +26,27 @@ h1 {
   justify-content: center;
 }
 
-#reset {
-  font-size: 24px;
+#reset,
+#reset:active {
+  color: white;
+  background-color: #4f4c48;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 15px;
+  transition: 0.3s;
+  border-radius: 4px;
+  width: 160px;
+  height: 40px;
+  font-family: sans-serif;
+  filter: blur(0.4px);
+}
+#reset:hover {
+  transition: 0.3s;
+  box-shadow: 0 0 15px 3px rgb(197, 197, 197);
+  cursor: pointer;
+  filter: blur(0);
 }
 
 .door {
@@ -40,6 +60,7 @@ h1 {
   overflow: hidden;
   padding: 10px;
   text-align: center;
+  border-radius: 7px;
 }
 
 .open {
